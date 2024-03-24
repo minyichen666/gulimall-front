@@ -15,7 +15,7 @@
       </el-form-item>
       <el-form-item label="所属分类id" prop="catelogId">
         <!-- <el-input v-model="dataForm.catelogId" placeholder="所属分类id"></el-input> -->
-        <el-cascader v-model="dataForm.catelogIds" :options="categories" :props="props" filterable></el-cascader>
+        <el-cascader v-model="dataForm.catelogIds" :options="categories" :props="props" filterable placeholder="试试搜索:手机"></el-cascader>
       </el-form-item>
     </el-form>
     <span slot="footer" class="dialog-footer">
